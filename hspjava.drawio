@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T17:30:23.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.3.0" etag="IOz_ZSkXJN8YOl-Ei6xd" type="github"><diagram id="y0Is-xLy2AR4QToUzqkz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T17:38:50.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WosO-_5kvYd3wGjU5RvV" version="20.3.0" type="github">
+  <diagram id="y0Is-xLy2AR4QToUzqkz" name="第 1 页">
+    <mxGraphModel dx="898" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-2" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;while循环初始化&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=31;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="sourcePoint" />
+            <mxPoint x="420" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-BuXhVq8i5jNpMLHU_De-5" target="-BuXhVq8i5jNpMLHU_De-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.615;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-BuXhVq8i5jNpMLHU_De-5" target="-BuXhVq8i5jNpMLHU_De-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="215" />
+              <mxPoint x="530" y="360" />
+              <mxPoint x="484" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-5" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;循环条件&lt;/font&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-BuXhVq8i5jNpMLHU_De-7" target="-BuXhVq8i5jNpMLHU_De-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="309" />
+              <mxPoint x="310" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;循环体&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;变量迭代&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;if(){...break...}&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;arcSize=28;" vertex="1" parent="1">
+          <mxGeometry x="360" y="279" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-10" value="循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="215" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-11" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="235" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-12" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="205" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-BuXhVq8i5jNpMLHU_De-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="420" as="sourcePoint" />
+            <mxPoint x="460" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuXhVq8i5jNpMLHU_De-19" value="循环结束" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
