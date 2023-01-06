@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T22:05:01.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="xMgFLPMl_Ek4h4r--f9u" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T22:15:30.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="TgimjX2oozPHFrXGaZEn" type="github">
   <diagram id="E968owxantQdqmP-8iAP" name="第 1 页">
     <mxGraphModel dx="2028" dy="701" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           <mxGeometry x="314" y="499" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2JEGXIDP38UHMZebyVa8-73" value="&lt;div style=&quot;box-sizing: border-box; line-height: 20px; color: rgba(var(--grey-7-rgb), 1); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: start; font-size: 15px;&quot; class=&quot;css-1v8309f-primary-secondary-overlay-overlay&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 1em; font-size: 15px;&quot;&gt;需要明白二分查找的性质，如果没有找到对应的值，则右指针会指向最大小于target的值，左指针指向最小大于target的值&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;box-sizing: border-box; display: flex; margin: 5px 0px 0px; color: rgb(38, 38, 38); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 15px; text-align: start;&quot; class=&quot;css-1wigilb-Toolbar e19tnut611&quot;&gt;&lt;button style=&quot;touch-action: manipulation; margin: 0px; font-size: 15px; font-family: inherit; line-height: 20px; overflow: visible; appearance: button; border-width: 0px; border-style: initial; border-color: initial; vertical-align: middle; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; border-radius: 3px; transition: all 0.18s ease-in-out 0s; outline: 0px; cursor: pointer; background-color: transparent; height: 24px; padding: 0px 7px; display: block; user-select: none;&quot; type=&quot;button&quot; class=&quot;e19tnut68 css-1noca98-transparent-xs-Btn-ToolButton e131m59q0&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;br style=&quot;font-size: 15px;&quot;&gt;&lt;/button&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-15" y="291" width="817" height="71" as="geometry" />
+          <mxGeometry x="67" y="200" width="817" height="71" as="geometry" />
         </mxCell>
         <mxCell id="2JEGXIDP38UHMZebyVa8-74" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;left&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="314" y="603" width="40" height="40" as="geometry" />
@@ -177,6 +177,24 @@
         </mxCell>
         <mxCell id="2JEGXIDP38UHMZebyVa8-100" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;right&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="348" y="1063" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-105" value="从索引0到right的区间内 , 最大值小于target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="64" y="266" width="301" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-106" value="从索引left到最大索引的区间内 , 最小值大于target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="381" y="266" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-107" value="[ 0 , right ]&amp;nbsp; right值 &amp;lt; target值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="537" y="504" width="208" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-108" value="return&amp;nbsp; right + 1;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="542" y="548" width="124" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-109" value="[ 0 , right )&amp;nbsp; right - 1 值 &amp;lt; target 值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="533" y="949" width="238" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2JEGXIDP38UHMZebyVa8-111" value="return right ;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="538" y="991" width="99" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
